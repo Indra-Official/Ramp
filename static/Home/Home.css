@@ -1,0 +1,130 @@
+/* Body Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	user-select: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Ramp_Bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+    border: 0.2vw solid white;
+    border-radius: 2px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Status_Grp {
+    display: flex;
+    flex-direction: row;
+    width: 52vw;
+    justify-content: space-between;
+    font-size: 4.2vw;
+}
+
+.Activity , .Connected{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Ramp_InfoC {
+    color: rgb(0, 255, 0);
+}
+
+.Ramp_InfoA {
+    color: rgb(255, 34, 34);
+}
+
+.Logo {
+    font-size: 10vw;
+}
+
+.Class_Bar {
+    margin-top: 2vw;
+    display: flex;
+    font-size:4.6vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+    border: 0.2vw solid white;
+    border-radius: 3px;
+    padding: 1vw 3vw 1vw 3vw;
+}
+
+.Class_TypeS {
+    text-decoration: line-through;
+}
+
+.Ramps {
+    height: auto;
+    margin-top: 2vw;
+    display: flex;
+    font-size: 3.5vw;
+    flex-direction: column;
+    align-items : center;
+    border: 0.2vw solid white;
+    border-radius: 3px;
+    height: 80vh;
+    padding: 1vw 3vw 1vw 3vw;
+}
+
+.Ramped {
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 2vw;
+    border: 0.2vw solid white;
+    border-radius: 3px;
+    align-items : center;
+    width: 90vw;
+    display: flex;
+}
+
+.Ramp_Pic {
+    margin-right: 2vw;
+    height: 13.5vw;
+    width: 13.5vw;
+    border: 0.1vw solid red;
+    border-radius: 1vw;
+    align-items: center;
+}
+
+.Ramp_Details {
+    font-size: 4vw;
+}
+
+.Ramp_Name {
+    color: aqua;
+    font-size: 5vw;
+}
+
+.Peers {
+    display: flex;
+}
+
+.Peers_Style{
+    padding-right: 2vw;
+    color: chartreuse;
+}
+
+.Ramps_Search {
+    align-items : center;
+    border: 0.2vw solid white;
+    border-radius: 2px;
+    height: 6vh;
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-between;
+    padding: 0vw 4vw 0vw 4vw;
+}
