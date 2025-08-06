@@ -9,9 +9,9 @@ Data_set = None
 def Index():
     return render_template("Home.html")
 
-@app.route("/Jee", methods = ["POST", "GET"])
+@app.route("/Chat", methods = ["POST", "GET"])
 def Jee():
-    return render_template("Jee.html")
+    return render_template("Chat.html")
 
 @app.route("/Data_Set", methods = ["POST", "GET"])
 def Send_Data():

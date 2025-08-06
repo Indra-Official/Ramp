@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" id="wi">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chat</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='Chat/Chat.css') }}" />
+	</head>
+	<body>
+		<div class = "Top_Bar">
+			<div class = "Pfp"></div>
+			<div class = "Chat_Title">
+				<div class = Details>
+					<div class = "Name">Team Akatsuki</div>
+					<div class = "Con">
+						<div class = "Connected_Text">Connected Peers</div>
+						<div class = "Peers">{}</div>
+					</div>
+				</div>
+				<div class = "To_Do">+</div>
+			</div>
+			
+		</div>
+
+		<div class = "Chat_Bar">
+			
+			<div class = "Chat_Box">  
+				
+				<div class = "Ramp">
+					<div class = "User_Pfp"></div>
+					<div class = "Msg_Data">
+						<div class = "Msg_Meta">
+							<div class = "User_Name">Indra</div>
+				 			<div class = "Date">6/8/25</div>
+							<div class = "Time">12:57</div>
+						</div>
+						<div class = "Text">Vanakam Da Mampla</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class = "Task_Box">
+
+				<div class = "Current_Task">
+					<div class = "Task_Info">
+						<div class = "Task_Name"></div>
+						<div class = "Task_Tag"></div>
+					</div>
+					<div class = "Due_Date"></div>	 
+				</div>
+
+				<div class = "Due_Task">
+					<div class = "Task_Info">
+						<div class = "Task_Name"></div>
+						<div class = "Task_Tag"></div>
+					</div>
+					<div class = "Due_Date"></div>
+				</div>
+
+				<div class = "Graded_Task">
+					<div class = "Task_Info">
+						<div class = "Task_Name"></div>
+						<div class = "Task_Tag"></div>
+					</div>
+					<div class = "Due_Date"></div></div>
+			</div>
+		</div>
+		
+		<div class = "Text_Bar">
+			<div class = "Type_Box"></div>
+			<div class = "Push">
+				<div class = "Add"></div>
+				<div class = "Send"></div>
+			</div>
+		</div>
+		
+		<script src="{{ url_for('static', filename='Chat/Chat.js') }}"></script>
+	</body>
+</html>

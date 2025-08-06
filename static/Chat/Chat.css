@@ -1,0 +1,128 @@
+/* Body Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	user-select: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 2vw;
+    font-family:'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Top_Bar {
+    display: flex;
+    flex-direction: row;
+    border: 0.2vw solid white;
+    border-radius: 2px;
+    padding: 2vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Pfp {
+    height: 13vw;
+    width: 13vw;
+    padding: 2vw;
+    border: 0.1vw solid red;
+    border-radius: 0.5vw;
+    align-items: center;
+}
+
+.Chat_Title{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 67vw;
+}
+
+
+.Name {
+    font-size: 6vw;
+} 
+
+.Con {
+    display: flex;
+}
+
+.Connected_Text {
+    padding-right: 2vw;
+}
+
+.To_Do {
+    font-size: 12vw;
+    padding-right: 2.5vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.Chat_Bar {
+    border: 0.2vw solid white;
+    border-radius: 2px;   
+    height: 81vh;
+    margin-top: 2vw;
+    display: flex;
+    background-color: black;
+}
+
+.Chat_Box {
+    margin: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.Ramp {
+    display: flex;
+}
+
+.User_Pfp {
+    height: 10vw;
+    width: 10vw;
+    border: 0.2vw solid white;
+    border-radius: 100px;
+    margin-right: 1.5vw;
+}
+
+.Msg_Data {
+    display: flex;
+    flex-direction: column;
+}
+
+.Msg_Meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Task_Box {
+    position: absolute;
+    right: 0;
+    border-left: 0.2vw solid white;
+    margin-right: 3.5vw;
+    height: 80.85vh;
+    display: flex;
+    margin-left: auto;
+    width: 35vw;
+    z-index: 5;
+    background-color: black;
+}
+
+.Text_Bar {
+    border: 0.2vw solid white;
+    border-radius: 2px;   
+    height: 7vh;
+    margin-top: 2vw;
+}
